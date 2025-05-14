@@ -1,0 +1,83 @@
+/*===common styles===*/
+body {
+    width: 480px;
+    font-family: roboto, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: darkorchid;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+button{
+    padding: 3px 12px;
+    cursor: pointer;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px cadetblue;
+    border-radius: 4px;
+    box-shadow: cadetblue 0 -12px 6px inset;
+}
+
+/*===form styles===*/
+#formApp{
+    width: 80%;
+    padding: 5%;
+    background-color: aqua;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.input-container{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+}
+label{
+    display: block;
+    font-size: 0.8em;
+    color: cadetblue;
+}
+.input{
+    width: 70%;
+}
+#text{
+    font-size: 1.2em;
+    width: 100%;
+    height: 25px;
+    padding-left: 10px;
+}
+#text::placeholder{
+    color: black;
+}
+.textarea-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.textarea-text{
+    width: 70%;
+}
+#textarea{
+    width: 100%;
+    height: 300px;
+    resize: none;
+    padding-left: 10px;
+}
+.button-list{
+    width: 25%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#reset{
+    margin-top: 20px;
+}
