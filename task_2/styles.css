@@ -1,0 +1,26 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.user-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: solid 1px teal;
+    background-color: teal;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
