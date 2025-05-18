@@ -22,7 +22,9 @@ button{
     border-radius: 4px;
     box-shadow: cadetblue 0 -12px 6px inset;
 }
-
+ul, ol{
+    list-style-type: none;
+}
 /*===form styles===*/
 #formApp{
     width: 80%;
